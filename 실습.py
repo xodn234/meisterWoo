@@ -72,7 +72,7 @@
 # while len(lotto) <= 5:
 #     numbers = random.randint(0, 9)
 #     lotto.append(numbers)
-# print("{}조".format(number), lotto)
+# print("{}조".format(number), lotto[::-1])
 
 
 ## 알파벳 카운트
