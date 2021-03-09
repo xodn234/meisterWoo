@@ -77,7 +77,7 @@
 
 ## 알파벳 카운트
 
-# text = "aineapple"
+# text = "pineapple"
 # dic = {word:text.count(word) for word in text}
 # print(dic)
 
@@ -91,3 +91,38 @@
 # print(dic[co])
 
 
+## code 단순화
+
+# ls = range(10)
+# data1 = [num1**2 for num1 in ls]
+# data2 = [num2 for num2 in ls if num2 % 2]
+# data3 = ["홀" if num3 %2 else "짝" for num3 in ls]
+# data4 = list(filter(lambda data: True if data % 2 else False, ls))
+
+# print(data1)
+# print(data2)
+# print(data3)
+# print(data4)
+
+
+## 비밀번호생성(데코)
+
+
+# def disp(func):
+#     def wrapper(*args, **kwargs):
+#         pw = "1234"
+#         input_pw = input("passward? : ")
+#         if input_pw == pw:
+#             result = func(*args, **kwargs)
+#             print(result)
+#         else:
+#             print("NO")
+#         return result
+#     return wrapper
+
+# @disp
+# def plus(x, y):
+#     result = x + y
+#     return result
+
+# plus(2, 3)
