@@ -109,20 +109,20 @@
 
 
 # def disp(func):
-#     def wrapper(*args, **kwargs):
+#     def wapper(*args, **kwargs):
 #         pw = "1234"
-#         input_pw = input("passward? : ")
-#         if input_pw == pw:
+#         pw_input = input("password? : ")
+#         if pw == pw_input:
 #             result = func(*args, **kwargs)
-#             print(result)
 #         else:
-#             print("NO")
+#             result = "XXX"
+#         print(result)
 #         return result
-#     return wrapper
+#     return wapper
 
 # @disp
-# def plus(x, y):
-#     result = x + y
-#     return result
+# def plus(a, b):
+#     result = a + b
+#     return a + b
 
-# plus(2, 3)
+# plus(5, 5)
